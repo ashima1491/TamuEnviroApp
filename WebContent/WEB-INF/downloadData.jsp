@@ -27,7 +27,7 @@
 
 		<div class="row">
 
-			<section id="indexPara" class="col-sm-10">
+			<section id="indexPara" class="col-sm-12">
 
 
 
