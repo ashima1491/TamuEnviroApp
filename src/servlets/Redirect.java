@@ -31,12 +31,17 @@ public class Redirect extends HttpServlet {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		String path = request.getParameter("path");
 		if (path.equals("about")) {
-			request.getServletContext().getRequestDispatcher("/WEB-INF/about.html").forward(request, response);
+			request.getServletContext().getRequestDispatcher("/WEB-INF/about.jsp").forward(request, response);
 		} else if (path.equals("downloadData")) {
-			request.getServletContext().getRequestDispatcher("/WEB-INF/downloadData.html").forward(request, response);
+			request.getServletContext().getRequestDispatcher("/WEB-INF/downloadData.jsp").forward(request, response);
 
 		} else if (path.equals("home")) {
-			request.getServletContext().getRequestDispatcher("/index.html").forward(request, response);
+			request.getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
+
+		}
+		
+		else if (path.equals("contactUs")) {
+			request.getServletContext().getRequestDispatcher("/WEB-INF/contact.jsp").forward(request, response);
 
 		}
 
