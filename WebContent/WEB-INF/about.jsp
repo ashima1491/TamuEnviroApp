@@ -40,7 +40,7 @@
 			
 				<div class="card">
 					<img class="card-img-top"
-						src="../TamuEnviroApp/images/sharmila.JPG" alt="Sharmila Bhandari">
+						src="images/sharmila.JPG" alt="Sharmila Bhandari">
 					<div class="card-body text-center">
 						<h5 class="card-title">
 							<input type="button" class="btn expanded" id="submit"
@@ -58,7 +58,7 @@
 
 				<div class="card">
 					<img class="card-img-top"
-						src="../TamuEnviroApp/images/chiu.JPG" alt="Weihsueh Chiu">
+						src="images/chiu.JPG" alt="Weihsueh Chiu">
 					<div class="card-body text-center">
 						<h5 class="card-title">
 							<input type="button" class="btn expanded" id="submit"
@@ -76,7 +76,7 @@
 
 				<div class="card">
 					<img class="card-img-top"
-						src="../TamuEnviroApp/images/ashima.jpg" alt="Ashima Sharma">
+						src="images/ashima.jpg" alt="Ashima Sharma">
 					<div class="card-body text-center">
 						<h5 class="card-title">
 							<input type="button" class="btn expanded" id="submit"
